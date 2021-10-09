@@ -1,0 +1,7 @@
+Webpack versiyon control check : npm list webpack
+
+webpack-versiyon 5den sonrası yüklüyse
+    Static klasör üzerinden dosyaları kullanabilmek için webpack.config dosyasına publicPath'i set etmeye gerek yok, url üzerinden göstermek için ise publicPath'e urlyi tanımlamak gerekiyor
+    
+webpack-versiyon 4den öncesi yüklüyse
+    publicPath'i her türlü setlemek gerekiyor. örnek publicPath: 'dist/'
